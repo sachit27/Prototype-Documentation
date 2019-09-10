@@ -45,3 +45,6 @@ You can also use pip to install the BME680 library
 sudo pip install bme680
 
 Note: If you don’t have pip or git, please install it in the Pi before proceeding with these commands.
+
+Adapted from: https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-bme680-breakout
+https://www.rigacci.org/wiki/doku.php/doc/appunti/hardware/raspberrypi_air
