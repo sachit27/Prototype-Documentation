@@ -1,0 +1,1 @@
+These documents give a detailed description about how to setup the sensors with the Raspebrry Pi Zero. Follow the steps in the files for different sensors to connect your sensor to Raspberry Pi zero and run the python files to start fetching the data from the sensors. 
