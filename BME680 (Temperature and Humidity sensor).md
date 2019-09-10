@@ -2,6 +2,10 @@ The first step is to solder the BME680 to the breakout.
 
 There is a piece of right-angle female header that you can solder on and then pop the breakout right onto pins 1, 3, 5, 7, and 9 of your Raspberry Pi.
 
+The final connection with the Pi would look like this:
+
+![alt text](https://github.com/sachit27/Prototype-Documentation/blob/master/figures/1.png)
+
 Changing the default I2C address
 
 The breakout has a default I2C address of 0x76, but this can be changed so that you can use up to two breakouts on the same Raspberry Pi or Arduino. To change the I2C address to 0x77, simply flow a small blob of solder across the two solder pads so that it bridges the pads. If you decide to change it back at a later date, then you can use a solder sucker or some solder braid to remove the solder and un-bridge the pads.
@@ -45,6 +49,10 @@ You can also use pip to install the BME680 library
 sudo pip install bme680
 
 Note: If you don’t have pip or git, please install it in the Pi before proceeding with these commands.
+
+Once you run the file bme680.py, you will the result like this
+
+![alt text](https://github.com/sachit27/Prototype-Documentation/blob/master/figures/2.png)
 
 Adapted from: https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-bme680-breakout
 https://www.rigacci.org/wiki/doku.php/doc/appunti/hardware/raspberrypi_air
