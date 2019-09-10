@@ -8,7 +8,7 @@ from time import sleep
 from bme680 import BME680
 from pms5003 import PMS5003, ReadTimeoutError
 
-myAPI = '74599RU6EKNNO8XJ'
+myAPI = '74599RU6EKNNO8XJ' #Change the code for using it for different accounts
 # URL where we will send the data, Don't change it
 baseURL = 'https://api.thingspeak.com/update?api_key=%s' % myAPI
 
